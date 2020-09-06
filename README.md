@@ -10,7 +10,7 @@ Language for solving matrix calculation problems created from lexical and syntac
 ## Instructions for use
 
 1.  Execute _Lex_ or _Flex_ with the arguments `-o scanner.cpp scanner.l`
-2.  Execute _Yacc_ or _Bison_ with the argument `-d parser.y -o parser.cpp`
+2.  Execute _Yacc_ or _Bison_ with the arguments `-d parser.y -o parser.cpp`
 3.  Edit the _test.txt_ file, write here the matrix operation you want to perform respecting the grammar below
 4.  Compile the _main.cpp_ file
 5.  Run the program
